@@ -1,13 +1,8 @@
-.bg-body-tertiary {
-    background-color: #d3d0fb !important;
-    font-family: "Montserrat", sans-serif;
-}
-
 .menu {
     font-size: 20px;
 }
 
-.logo {
+.main-logo {
     width: 5rem;
 }
 
@@ -18,4 +13,8 @@
 .hover-4:hover {
     --p: 100%;
     background-position: right;
+}
+
+.min-vh-8 {
+    max-height: 10vh;
 }

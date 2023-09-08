@@ -3,10 +3,14 @@ import "../css/Navbars.css";
 
 function Navbars() {
     return (
-        <Navbar expand="lg" sticky="top" className="bg-body-tertiary shadow">
-            <Container fluid>
+        <Navbar
+            expand="lg"
+            sticky="top"
+            className="bg-body-tertiary shadow p-0"
+        >
+            <Container fluid className="min-vh-8 bg-1">
                 <Navbar.Brand href="#home">
-                    <img src="./nav-icon-hover.png" className="logo" />
+                    <img src="./nav-icon-hover.png" className="main-logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -17,10 +21,7 @@ function Navbars() {
                         >
                             ABOUT
                         </Nav.Link>
-                        <Nav.Link
-                            href="#theTeam"
-                            className="hover-4 mx-3 rounded"
-                        >
+                        <Nav.Link href="#team" className="hover-4 mx-3 rounded">
                             THE TEAM
                         </Nav.Link>
                         <Nav.Link

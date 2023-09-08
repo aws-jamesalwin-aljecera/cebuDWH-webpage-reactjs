@@ -39,10 +39,3 @@
 .snaps-inline > * {
     scroll-snap-align: start;
 }
-
-#theTeam {
-    background: #d3d0fb;
-}
-.sub-title {
-    font-size: 3em;
-}

@@ -20,3 +20,35 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background: #55535e;
 }
+
+.active {
+    text-decoration: underline;
+}
+
+.bg-1 {
+    background-color: #d3d0fb !important;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.sub-title {
+    font-size: 1.875em;
+}
+
+.p-10 {
+    font-size: 10px;
+}
+
+.p-18 {
+    font-size: 18px;
+}
+
+.min-vh-92 {
+    min-height: 92vh;
+}
+
+.sub-logo {
+    width: 3rem;
+}

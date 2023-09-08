@@ -3,14 +3,14 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export const Hero = () => {
     return (
-        <Container className="min-vh-100 d-flex align-items-center" id="about">
+        <Container className="min-vh-92 d-flex align-items-center" id="about">
             <Row>
                 <Col>
                     <img src="./Rajztabla-311@4x-edit.png" className="w-50" />
                 </Col>
                 <Col>
-                    <h2 className="sub-title">ABOUT DWH</h2>
-                    <p>
+                    <h2 className="title">ABOUT DWH</h2>
+                    <p className="p-18">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Natus veritatis aliquam, ullam asperiores harum,
                         non facilis facere voluptate eum quaerat sapiente, ab
