@@ -1,7 +1,7 @@
 import { Row, Col, Container, Nav, Navbar } from "react-bootstrap";
-import "./Header.css";
+import "../css/Navbars.css";
 
-function Header() {
+function Navbars() {
     return (
         <Navbar expand="lg" sticky="top" className="bg-body-tertiary shadow">
             <Container fluid>
@@ -42,4 +42,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Navbars;

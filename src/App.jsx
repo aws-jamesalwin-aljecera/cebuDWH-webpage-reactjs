@@ -1,15 +1,14 @@
 import { Carousel } from "react-bootstrap";
-import TheTeam from "./TheTeam";
-import Carousels from "./Carousels";
-import Header from "./Header";
-import Hero from "./Hero";
+import Navbars from "./components/Navbars";
+import Hero from "./pages/Hero";
+import Team from "./pages/Team";
 
 function App() {
     return (
         <>
-            <Header />
+            <Navbars />
             <Hero />
-            <TheTeam />
+            <Team />
         </>
     );
 }

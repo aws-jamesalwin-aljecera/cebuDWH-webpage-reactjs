@@ -1,14 +1,13 @@
 import React from "react";
 import { Col, Container, Dropdown, DropdownButton, Row } from "react-bootstrap";
-import Cards from "./Cards";
-import Carousels from "./Carousels";
-import Members from "../members.json";
-import "./TheTeam.css";
+import Cards from "../components/Cards";
+import Members from "../../members.json";
+import "../css/Team.css";
 
-const TheTeam = () => {
+const Team = () => {
     let len = 8;
     return (
-        <Container className="text-center min-vh-100 p-5" id="theTeam" fluid>
+        <Container className="text-center min-vh-100 p-5" id="team" fluid>
             <Row className="mb-3">
                 <h2>THE TEAM</h2>
                 <p>
@@ -21,18 +20,21 @@ const TheTeam = () => {
                     adipiscing enim eu turpis egestas.
                 </p>
                 <h2>Profile</h2>
-                <DropdownButton
-                    id="dropdown-basic-button"
-                    title="Dropdown button"
-                >
-                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">
-                        Another action
-                    </Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
-                        Something else
-                    </Dropdown.Item>
-                </DropdownButton>
+                <Dropdown>
+                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+                        <p className="d-inline-block px-2 m-0">Skill Button</p>
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">
+                            Another action
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">
+                            Something else
+                        </Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
             </Row>
             <div className="media-scroller snaps-inline">
                 {/* <Carousels /> */}
@@ -49,4 +51,4 @@ const TheTeam = () => {
     );
 };
 
-export default TheTeam;
+export default Team;
