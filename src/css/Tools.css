@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+h2{
+    text-transform: uppercase;
+}
+
+.background{
+    background-color: #D3D0FB;
+    padding-bottom: 70px;
+}
+
+blockquote.blockquote{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38.57px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+figcaption.blockquote-footer{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.69px;
+    font-family: 'Montserrat', sans-serif !important;
+}

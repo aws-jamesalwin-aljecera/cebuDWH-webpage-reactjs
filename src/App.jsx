@@ -2,6 +2,7 @@ import Navbars from "./components/Navbars";
 import Hero from "./pages/Hero";
 import Team from "./pages/Team";
 import Services from "./pages/Services";
+import Tools from "./pages/Tools";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Hero />
             <Team />
             <Services />
+            <Tools/>
         </>
     );
 }
