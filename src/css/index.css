@@ -22,7 +22,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .active {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .bg-1 {
@@ -30,25 +30,25 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 3em !important;
 }
 
 .sub-title {
-    font-size: 1.875em;
+    font-size: 1.875em !important;
 }
 
 .p-10 {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 .p-18 {
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 .min-vh-92 {
-    min-height: 92vh;
+    min-height: 92vh !important;
 }
 
 .sub-logo {
-    width: 3rem;
+    width: 3rem !important;
 }

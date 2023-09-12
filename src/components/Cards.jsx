@@ -3,7 +3,7 @@ import { Button, Card, Row } from "react-bootstrap";
 
 const Cards = ({ props }) => {
     return (
-        <Card style={{ width: "18rem", height: "21rem" }}>
+        <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img
                 variant="top"
                 src={"https://robohash.org/" + props.name}
@@ -21,31 +21,57 @@ const Cards = ({ props }) => {
                     up the bulk of the card's content.
                 </Card.Text>
                 <Row className="justify-content-center">
-                    <img
-                        src="./facebook.png"
-                        alt="Facebook logo"
+                    <a
+                        href="https://www.fb.com"
+                        target={"_blank"}
                         className="sub-logo p-1"
-                    />
-                    <img
-                        src="./instagram.png"
-                        alt="Facebook logo"
+                    >
+                        <img
+                            src="./facebook.png"
+                            alt="Facebook logo"
+                            className="sub-logo"
+                        />
+                    </a>
+                    <a
+                        href="https://www.instagram.com"
+                        target="_blank"
                         className="sub-logo p-1"
-                    />
-                    <img
-                        src="./github.png"
-                        alt="Facebook logo "
+                    >
+                        <img
+                            src="./instagram.png"
+                            alt="Instagram logo"
+                            className="sub-logo p-1"
+                        />
+                    </a>
+                    <a
+                        href="https://www.github.com"
+                        target={"_blank"}
                         className="sub-logo p-1"
-                    />
-                    <img
-                        src="./linkedin.png"
-                        alt="Facebook logo"
+                    >
+                        <img
+                            src="./github.png"
+                            alt="Github logo "
+                            className="sub-logo p-1"
+                        />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com"
+                        target={"_blank"}
                         className="sub-logo p-1"
-                    />
-                    <img
-                        src="./gitlab.png"
-                        alt="Facebook logo"
-                        className="sub-logo p-1"
-                    />
+                    >
+                        <img
+                            src="./linkedin.png"
+                            alt="LinkedIn logo"
+                            className="sub-logo p-1"
+                        />
+                    </a>
+                    <a href="https://www.gitlab.com" className="sub-logo p-1">
+                        <img
+                            src="./gitlab.png"
+                            alt="GitLab logo"
+                            className="sub-logo p-1"
+                        />
+                    </a>
                 </Row>
             </Card.Body>
         </Card>

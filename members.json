@@ -4,14 +4,14 @@
         "name": "Jayson Roda",
         "age": 18,
         "position": "Junior Research and Development Engineer",
-        "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+        "skills": ["Java", "C#", "JavaScript"]
     },
     {
         "id": 2,
         "name": "Ciara Parce",
         "age": 12,
         "position": "Junior Research and Development Engineer",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
@@ -22,7 +22,7 @@
         "name": "James Alwin Aljecera",
         "age": 20,
         "position": "Asst. Research and Development Engineer",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
@@ -33,7 +33,7 @@
         "name": "Gabriel Paderna",
         "age": 14,
         "position": "Asst. Research and Development Engineer",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
@@ -44,95 +44,95 @@
         "name": "Thomas Cyril Cuayan",
         "age": 21,
         "position": "Junior Research and Development Engineer",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 24,
+        "id": 6,
         "name": "Test 1334",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 51,
+        "id": 7,
         "name": "Test 43",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 123,
+        "id": 8,
         "name": "Test 34",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 98,
+        "id": 9,
         "name": "Test 312",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 90,
+        "id": 10,
         "name": "Test 331",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 123,
+        "id": 11,
         "name": "Test 123",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 125,
+        "id": 12,
         "name": "Test 3123",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
         ]
     },
     {
-        "id": 123,
+        "id": 13,
         "name": "Test1123 3",
         "age": 39,
         "position": "Jane Wilson",
-        "powers": [
+        "skills": [
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
