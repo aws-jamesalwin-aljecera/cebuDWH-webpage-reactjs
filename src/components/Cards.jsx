@@ -3,7 +3,7 @@ import { Button, Card, Row } from "react-bootstrap";
 
 const Cards = ({ props }) => {
     return (
-        <Card style={{ width: "18rem", height: "21rem" }}>
+        <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img
                 variant="top"
                 src={"https://robohash.org/" + props.name}
