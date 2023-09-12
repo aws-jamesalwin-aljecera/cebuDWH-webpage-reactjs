@@ -1,9 +1,9 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
+import { Button, Card, Row } from "react-bootstrap";
 
 const Cards = ({ props }) => {
     return (
-        <Card style={{ width: "18rem", height: "27rem" }}>
+        <Card style={{ width: "18rem", height: "21rem" }}>
             <Card.Img
                 variant="top"
                 src={"https://robohash.org/" + props.name}
@@ -20,7 +20,33 @@ const Cards = ({ props }) => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Row className="justify-content-center">
+                    <img
+                        src="./facebook.png"
+                        alt="Facebook logo"
+                        className="sub-logo p-1"
+                    />
+                    <img
+                        src="./instagram.png"
+                        alt="Facebook logo"
+                        className="sub-logo p-1"
+                    />
+                    <img
+                        src="./github.png"
+                        alt="Facebook logo "
+                        className="sub-logo p-1"
+                    />
+                    <img
+                        src="./linkedin.png"
+                        alt="Facebook logo"
+                        className="sub-logo p-1"
+                    />
+                    <img
+                        src="./gitlab.png"
+                        alt="Facebook logo"
+                        className="sub-logo p-1"
+                    />
+                </Row>
             </Card.Body>
         </Card>
     );

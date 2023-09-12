@@ -7,10 +7,10 @@ import "../css/Team.css";
 const Team = () => {
     let len = 8;
     return (
-        <Container className="text-center min-vh-100 p-5" id="team" fluid>
+        <Container className="text-center min-vh-92 p-5 bg-1" id="team" fluid>
             <Row className="mb-3">
-                <h2>THE TEAM</h2>
-                <p>
+                <h2 className="title">THE TEAM</h2>
+                <p className="p-18">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Platea dictumst vestibulum rhoncus est. Elementum
@@ -19,10 +19,10 @@ const Team = () => {
                     lobortis mattis aliquam faucibus purus. Sit amet tellus cras
                     adipiscing enim eu turpis egestas.
                 </p>
-                <h2>Profile</h2>
+                <h2 className="sub-title">Profile</h2>
                 <Dropdown>
                     <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        <p className="d-inline-block px-2 m-0">Skill Button</p>
+                        <p className="d-inline-block px-5 m-0">Skill Button</p>
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
