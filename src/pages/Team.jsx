@@ -1,5 +1,12 @@
 import React from "react";
-import { Col, Container, Dropdown, DropdownButton, Row } from "react-bootstrap";
+import {
+    Col,
+    Container,
+    Dropdown,
+    DropdownButton,
+    Form,
+    Row,
+} from "react-bootstrap";
 import Cards from "../components/Cards";
 import Members from "../../members.json";
 import "../css/Team.css";
@@ -21,24 +28,22 @@ const Team = () => {
                 </p>
                 <h2 className="sub-title">Profile</h2>
                 <Dropdown>
-                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        <p className="d-inline-block px-5 m-0">Skill Button</p>
-                    </Dropdown.Toggle>
-
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                            Another action
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
-                            Something else
-                        </Dropdown.Item>
+                        <Form>
+                            <Dropdown.Item href="#/action-1">
+                                Action
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">
+                                Another action
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">
+                                Something else
+                            </Dropdown.Item>
+                        </Form>
                     </Dropdown.Menu>
                 </Dropdown>
             </Row>
             <div className="media-scroller snaps-inline">
-                {/* <Carousels /> */}
-
                 {Members.map((mem) => {
                     return (
                         <div class="media-element">
