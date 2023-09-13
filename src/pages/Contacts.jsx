@@ -6,7 +6,7 @@ import { Container,Row,Col } from "react-bootstrap";
 
 const Contacts = () => {
     return (
-        <Container fluid className="back-color pb-5">
+        <Container fluid className="back-color pb-5" id="contact">
             <Row>
                 <Col className="mt-5">
                     <Row >
