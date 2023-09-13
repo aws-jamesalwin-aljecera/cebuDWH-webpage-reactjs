@@ -4,7 +4,8 @@
         "name": "Jayson Roda",
         "age": 18,
         "position": "Junior Research and Development Engineer",
-        "skills": ["Java", "C#", "JavaScript"]
+        "skills": ["Java", "C#", "JavaScript"],
+        "cv":""
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":"https://drive.google.com/file/d/1NPFVvSLrl2wMWTf6o5BO-w_0zK9ZuA-Q/view?usp=drive_link"
     },
     {
         "id": 3,
@@ -26,7 +28,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":"https://drive.google.com/file/d/1POZEPy0cB2WUp8n7Z_C7HfREyE3xb1AD/view?usp=drive_link"
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":"https://drive.google.com/file/d/11U7BOZ1MeqkYIODs2XskmhWeNJdPGUru/view?usp=drive_link"
     },
     {
         "id": 5,
@@ -48,7 +52,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 6,
@@ -59,7 +64,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 7,
@@ -70,7 +76,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 8,
@@ -81,7 +88,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 9,
@@ -92,7 +100,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 10,
@@ -103,7 +112,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 11,
@@ -114,7 +124,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 12,
@@ -125,7 +136,8 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     },
     {
         "id": 13,
@@ -136,6 +148,7 @@
             "Million tonne punch",
             "Damage resistance",
             "Superhuman reflexes"
-        ]
+        ],
+        "cv":""
     }
 ]
