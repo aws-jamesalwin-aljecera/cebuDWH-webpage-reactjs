@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Row } from "react-bootstrap";
+import "../css/Cards.css";
 
 const Cards = ({ props }) => {
     return (
@@ -14,7 +15,7 @@ const Cards = ({ props }) => {
                 }}
             />
             <Card.Body>
-                <a href={props.cv} target="_blank"><Card.Title className="fw-bold">{props.name}</Card.Title></a>
+                <a href={props.cv} target="_blank" className="no-link"><Card.Title className="fw-bold">{props.name}</Card.Title></a>
                 <Card.Subtitle className="mb-3">{props.position}</Card.Subtitle>
                 <Card.Text className="p-10">
                     Some quick example text to build on the card title and make
