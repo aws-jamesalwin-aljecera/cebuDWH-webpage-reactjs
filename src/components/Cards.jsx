@@ -14,7 +14,7 @@ const Cards = ({ props }) => {
                 }}
             />
             <Card.Body>
-                <Card.Title className="fw-bold">{props.name}</Card.Title>
+                <a href={props.cv} target="_blank"><Card.Title className="fw-bold">{props.name}</Card.Title></a>
                 <Card.Subtitle className="mb-3">{props.position}</Card.Subtitle>
                 <Card.Text className="p-10">
                     Some quick example text to build on the card title and make
