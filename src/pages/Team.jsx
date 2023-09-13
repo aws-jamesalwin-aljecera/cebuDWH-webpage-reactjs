@@ -28,6 +28,9 @@ const Team = () => {
                 </p>
                 <h2 className="sub-title">Profile</h2>
                 <Dropdown>
+                    <Dropdown.Toggle id="dropdown-basic">
+                        Dropdown Button
+                    </Dropdown.Toggle>
                     <Dropdown.Menu>
                         <Form>
                             <Dropdown.Item href="#/action-1">
