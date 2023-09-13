@@ -28,8 +28,8 @@ const Team = () => {
                 </p>
                 <h2 className="sub-title">Profile</h2>
                 <Dropdown>
-                    <Dropdown.Toggle id="dropdown-basic">
-                        Dropdown Button
+                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+                        <p className="d-inline-block px-2 m-0">Skill Button</p>
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                         <Form>
