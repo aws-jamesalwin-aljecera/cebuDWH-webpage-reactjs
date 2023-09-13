@@ -1,16 +1,17 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import "../css/Hero.css";
 
 export const Hero = () => {
     return (
         <Container className="min-vh-92 d-flex align-items-center" id="about">
             <Row>
                 <Col>
-                    <img src="./Rajztabla-311@4x-edit.png" className="w-50" />
+                    <img src="./Rajztabla-311@4x-edit.png" className="w-100"/>
                 </Col>
-                <Col>
-                    <h2 className="title">ABOUT DWH</h2>
-                    <p className="p-18">
+                <Col> 
+                    <h2 className="title adjust-1">ABOUT DWH</h2>
+                    <p className="p-18 adjust-2 mt-4">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Natus veritatis aliquam, ullam asperiores harum,
                         non facilis facere voluptate eum quaerat sapiente, ab
