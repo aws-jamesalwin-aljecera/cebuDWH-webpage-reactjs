@@ -10,20 +10,8 @@
   },
   {
     "id": 2,
-    "name": "Ciara Parce",
-    "age": 12,
-    "position": "Junior Research and Development Engineer",
-    "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
-    ],
-    "cv": "https://drive.google.com/file/d/1NPFVvSLrl2wMWTf6o5BO-w_0zK9ZuA-Q/view?usp=drive_link"
-  },
-  {
-    "id": 3,
     "name": "James Alwin Aljecera",
-    "age": 20,
+    "age": 24,
     "position": "Asst. Research and Development Engineer",
     "skills": [
       "Million tonne punch",
@@ -33,22 +21,33 @@
     "cv": "https://drive.google.com/file/d/1POZEPy0cB2WUp8n7Z_C7HfREyE3xb1AD/view?usp=drive_link"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Gabriel Paderna",
     "age": 14,
     "position": "Asst. Research and Development Engineer",
+    "skills": [
+      "HTML", "CSS", "JS", "Flutter", "PHP",
+      "C","C++", "C#", "SQL", "JavaEE", "IBM Cloud Pak for Data (CP4D)", "IBM Infosphere Datastage", "Tableau"
+    ],
+    "cv": "https://drive.google.com/file/d/11U7BOZ1MeqkYIODs2XskmhWeNJdPGUru/view?usp=drive_link"
+  },
+  {
+    "id": 4,
+    "name": "John Karl Ombayan Auxteriaco",
+    "age": 39,
+    "position": "Jane Wilson",
     "skills": [
       "Million tonne punch",
       "Damage resistance",
       "Superhuman reflexes"
     ],
-    "cv": "https://drive.google.com/file/d/11U7BOZ1MeqkYIODs2XskmhWeNJdPGUru/view?usp=drive_link"
+    "cv": ""
   },
   {
     "id": 5,
-    "name": "Thomas Cyril Cuayan",
-    "age": 21,
-    "position": "Junior Research and Development Engineer",
+    "name": "Junrel Concha Ednalig",
+    "age": 39,
+    "position": "Jane Wilson",
     "skills": [
       "Million tonne punch",
       "Damage resistance",
@@ -58,7 +57,7 @@
   },
   {
     "id": 6,
-    "name": "Test 1334",
+    "name": "Mark Anthony Hernandez",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
@@ -70,7 +69,7 @@
   },
   {
     "id": 7,
-    "name": "Test 43",
+    "name": "Lizlie Angel Abadiano Holleza",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
@@ -82,7 +81,7 @@
   },
   {
     "id": 8,
-    "name": "Test 34",
+    "name": "Harold Jamin",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
@@ -94,7 +93,7 @@
   },
   {
     "id": 9,
-    "name": "Test 312",
+    "name": "Gabriel Joses Mayuga",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
@@ -106,7 +105,7 @@
   },
   {
     "id": 10,
-    "name": "Test 331",
+    "name": "Emmanuel Orongan",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
@@ -118,7 +117,7 @@
   },
   {
     "id": 11,
-    "name": "Test 123",
+    "name": "Ardene Corpuz Palima",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
@@ -130,7 +129,7 @@
   },
   {
     "id": 12,
-    "name": "Test 3123",
+    "name": "Zandra Ricablanca",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
@@ -142,7 +141,31 @@
   },
   {
     "id": 13,
-    "name": "Test1123 3",
+    "name": "Ramil Tagavilla",
+    "age": 39,
+    "position": "Jane Wilson",
+    "skills": [
+      "Million tonne punch",
+      "Damage resistance",
+      "Superhuman reflexes"
+    ],
+    "cv": ""
+  },
+  {
+    "id": 14,
+    "name": "Hernan Jay Tiagan",
+    "age": 39,
+    "position": "Jane Wilson",
+    "skills": [
+      "Million tonne punch",
+      "Damage resistance",
+      "Superhuman reflexes"
+    ],
+    "cv": ""
+  },
+  {
+    "id": 15,
+    "name": "Meracle Tinambacan",
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
