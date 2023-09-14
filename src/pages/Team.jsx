@@ -1,12 +1,75 @@
-import React from "react";
-import { Col, Container, Dropdown, Form, Row } from "react-bootstrap";
+import React, { useCallback } from "react";
+import { Button, Col, Container, Dropdown, Form, Row } from "react-bootstrap";
 import Cards from "../components/Cards";
 import Members from "../../members.json";
 import SkillSet from "../../skillset.json";
 import "../css/Team.css";
+import { useState } from "react";
 
 const Team = () => {
     const [skills, certificates] = SkillSet;
+
+    const [selectedSkills, setSelectedSkills] = useState([]);
+    // const handleChange = (e) => {
+    //     selectedSkills.map((skill) => {
+    //         skill != e.target.value;
+    //     });
+    //     setSelectedSkills(e.target.value);
+    //     console.log(selectedSkills);
+    // };
+
+    // const clearSkills = () => {
+    //     setSelectedSkills(null);
+    //     document
+    //         .querySelectorAll("input[type=checkbox]")
+    //         .forEach((el) => (el.checked = false));
+    // };
+
+    const [state, setState] = useState({
+        member: Members,
+        filters: new Set(),
+    });
+
+    const handleFilterChange = useCallback(
+        (event) => {
+            setState((previousState) => {
+                let filters = new Set(previousState.filters);
+                let member = Members;
+                if (event.target.checked) {
+                    filters.add(event.target.value);
+                } else {
+                    filters.delete(event.target.value);
+                }
+
+                if (filters.size) {
+                    member = member.filter((mem) => {
+                        return filters.has(...mem.skills);
+                    });
+                }
+                console.log(filters);
+                console.log(member);
+
+                return {
+                    filters,
+                    member,
+                };
+            });
+        },
+        [setState]
+    );
+
+    const clearSkills = () => {
+        setState(
+            (prevState) => (
+                (prevState.member = Members), (prevState.filters = new Set())
+            )
+        );
+        console.log(state);
+        document
+            .querySelectorAll("input[type=checkbox]")
+            .forEach((el) => (el.checked = false));
+    };
+
     return (
         <Container className="text-center min-vh-92 p-5 bg-1" id="team" fluid>
             <Row className="mb-3">
@@ -26,7 +89,10 @@ const Team = () => {
                         <p className="d-inline-block px-2 m-0">Skills Button</p>
                     </Dropdown.Toggle>
                     <Dropdown.Menu className="p-2 text-white w-75 dropdown-menu shadow bg-secondary">
-                        <h4 className="text-center">Skills</h4>
+                        <Row>
+                            <h4 className="text-center">Skills</h4>
+                            {/* <Button onClick={clearSkills}>Clear</Button> */}
+                        </Row>
                         <Form className="justify-content-between">
                             <Row>
                                 {skills.skills.map((skill) => {
@@ -35,6 +101,8 @@ const Team = () => {
                                             <Form.Check // prettier-ignore
                                                 type="checkbox"
                                                 id={skill}
+                                                onChange={handleFilterChange}
+                                                value={skill}
                                                 label={skill}
                                             />
                                         </Col>
@@ -62,7 +130,7 @@ const Team = () => {
                 </Dropdown>
             </Row>
             <div className="media-scroller snaps-inline">
-                {Members.map((mem) => {
+                {state.member.map((mem) => {
                     return (
                         <div className="media-element" key={mem.id}>
                             <Cards props={mem} key={mem.id} />
