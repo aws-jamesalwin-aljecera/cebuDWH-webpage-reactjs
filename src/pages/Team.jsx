@@ -8,23 +8,7 @@ import { useState } from "react";
 
 const Team = () => {
     const [skills, certificates] = SkillSet;
-
-    const [selectedSkills, setSelectedSkills] = useState([]);
-    // const handleChange = (e) => {
-    //     selectedSkills.map((skill) => {
-    //         skill != e.target.value;
-    //     });
-    //     setSelectedSkills(e.target.value);
-    //     console.log(selectedSkills);
-    // };
-
-    // const clearSkills = () => {
-    //     setSelectedSkills(null);
-    //     document
-    //         .querySelectorAll("input[type=checkbox]")
-    //         .forEach((el) => (el.checked = false));
-    // };
-
+    
     const [state, setState] = useState({
         member: Members,
         filters: new Set(),
@@ -43,8 +27,6 @@ const Team = () => {
 
                 if (filters.size) {
                     member = member.filter((mem) => {
-                        // return filters(...mem.skills);
-                        // return Array.from(filters).includes(mem.skills.forEach(uskill =>uskill));
                         return Array.from(filters).every( ai => mem.skills.includes(ai) );
                     });
                 }
