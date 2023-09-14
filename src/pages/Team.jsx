@@ -43,7 +43,9 @@ const Team = () => {
 
                 if (filters.size) {
                     member = member.filter((mem) => {
-                        return filters.has(...mem.skills);
+                        // return filters(...mem.skills);
+                        // return Array.from(filters).includes(mem.skills.forEach(uskill =>uskill));
+                        return Array.from(filters).every( ai => mem.skills.includes(ai) );
                     });
                 }
                 console.log(filters);
