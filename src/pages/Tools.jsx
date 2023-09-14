@@ -14,25 +14,25 @@ const Tools = () => {
                         <img src="./JavaScript.png" width={91} height={79}/>
                     </Col>
                     <Col> 
-                        <img src="./React.png" width={74} height={72} />
+                        <img src="./React.png" width={91} height={79} />
                     </Col>
                     <Col>
-                        <img src="./CP4D.png" width={72} height={73}/>
+                        <img src="./CP4D.png" width={91} height={79}/>
                     </Col>
                     <Col>
-                        <img src="./winscp.png" width={77} height={62}/>
+                        <img src="./winscp.png" width={91} height={79}/>
                     </Col>
                     <Col>
-                        <img src="./DBeaver.png" width={69} height={62}/>
+                        <img src="./DBeaver.png" width={91} height={79}/>
                     </Col>
                     <Col>
-                        <img src="./Tableau Logo.png" width={65} height={54}/>
+                        <img src="./Tableau Logo.png" width={91} height={79}/>
+                    </Col>
+                    <Col >
+                        <img src="./Infosphere.png" width={91} height={79}/>
                     </Col>
                     <Col>
-                        <img src="./Infosphere.png" width={72} height={47}/>
-                    </Col>
-                    <Col>
-                        <img src="./Teraterm.png" width={51} height={51}/>
+                        <img src="./Teraterm.png" width={91} height={79}/>
                     </Col>
                 </Row>
             </Container>

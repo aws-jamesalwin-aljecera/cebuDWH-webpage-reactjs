@@ -4,7 +4,8 @@
     "name": "Jayson Roda",
     "age": 18,
     "position": "Junior Research and Development Engineer",
-    "skills": ["Java", "C#", "JavaScript"],
+    "skills": ["Java", "Springboot", "SQL", "C#", "C++", "Web (HTML/CSS/Javascript)",
+    "MongoDB", "Express JS", "React JS", "Node JS","Bootstrap", "PHP", "Git", "DataStage", "Tableau"],
     "cv": "https://drive.google.com/file/d/1NPFVvSLrl2wMWTf6o5BO-w_0zK9ZuA-Q/view?usp=drive_link"
   },
   {
