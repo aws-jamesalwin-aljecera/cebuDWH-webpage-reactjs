@@ -25,7 +25,7 @@ const Team = () => {
                     <Dropdown.Toggle variant="secondary" id="dropdown-basic">
                         <p className="d-inline-block px-2 m-0">Skills Button</p>
                     </Dropdown.Toggle>
-                    <Dropdown.Menu className="p-2 w-75 dropdown-menu">
+                    <Dropdown.Menu className="p-2 text-white w-75 dropdown-menu shadow bg-secondary">
                         <h4 className="text-center">Skills</h4>
                         <Form className="justify-content-between">
                             <Row>
