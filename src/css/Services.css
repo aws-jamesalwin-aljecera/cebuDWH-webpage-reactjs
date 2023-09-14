@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 div .services_layout{
-    width: 1200px;
-    height: 454px;
+    width: auto;
+    height: auto;
     top: 1763px;
     left: 40px;
 }

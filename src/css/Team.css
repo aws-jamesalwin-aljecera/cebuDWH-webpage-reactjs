@@ -39,3 +39,24 @@
 .snaps-inline > * {
     scroll-snap-align: start;
 }
+@media (max-width: 768px) {
+    .media-scroller {
+        grid-auto-columns: auto;
+        padding: 0;
+        overflow-x: scroll;
+        overscroll-behavior-inline: auto;
+    }
+    
+
+    .snaps-inline {
+        scroll-padding-inline: 0;
+    }
+}
+@media (min-width: 768px) {
+    .media-scroller {
+        grid-auto-columns: auto;
+        padding: 0;
+        overflow-x: scroll;
+        overscroll-behavior-inline: auto;
+    }
+}
