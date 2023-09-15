@@ -8,7 +8,6 @@ import { useState } from "react";
 
 const Team = () => {
     const [skills, certificates] = SkillSet;
-    
     const [state, setState] = useState({
         member: Members,
         filters: new Set(),
@@ -103,6 +102,8 @@ const Team = () => {
                                             <Form.Check // prettier-ignore
                                                 type="checkbox"
                                                 id={certificate}
+                                                onChange={handleFilterChange}
+                                                value={certificate} 
                                                 label={certificate}
                                             />
                                         </Col>
