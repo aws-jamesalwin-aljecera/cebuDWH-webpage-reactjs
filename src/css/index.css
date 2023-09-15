@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .min-vh-92 {
-    min-height: 92vh !important;
+    min-height: auto !important;
 }
 
 .sub-logo {
