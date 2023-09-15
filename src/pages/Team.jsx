@@ -26,7 +26,9 @@ const Team = () => {
 
                 if (filters.size) {
                     member = member.filter((mem) => {
-                        return Array.from(filters).every( ai => mem.skills.includes(ai) );
+                        return Array.from(filters).every((ai) =>
+                            mem.skills.includes(ai)
+                        );
                     });
                 }
                 console.log(filters);
@@ -68,10 +70,15 @@ const Team = () => {
                 </p>
                 <h2 className="sub-title">Profile</h2>
                 <Dropdown className="text-center">
-                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        <p className="d-inline-block px-2 m-0">Skills Button</p>
+                    <Dropdown.Toggle
+                        className="bg-2 border-0"
+                        id="dropdown-basic"
+                    >
+                        <p className="d-inline-block px-2 m-0 ">
+                            Filter Button
+                        </p>
                     </Dropdown.Toggle>
-                    <Dropdown.Menu className="p-2 text-white w-75 dropdown-menu shadow bg-secondary">
+                    <Dropdown.Menu className="p-3 text-white w-75 dropdown-menu shadow-lg bg-2">
                         <Row>
                             <h4 className="text-center">Skills</h4>
                             {/* <Button onClick={clearSkills}>Clear</Button> */}
@@ -80,7 +87,7 @@ const Team = () => {
                             <Row>
                                 {skills.skills.map((skill) => {
                                     return (
-                                        <Col md={{ span: 3 }} key={skill}>
+                                        <Col md={3} sm={6} key={skill}>
                                             <Form.Check // prettier-ignore
                                                 type="checkbox"
                                                 id={skill}
@@ -93,7 +100,9 @@ const Team = () => {
                                 })}
                             </Row>
                         </Form>
-                        <h4 className="text-center">Certificate</h4>
+                        <h4 className="text-center border-top mt-2 pt-2">
+                            Certificate
+                        </h4>
                         <Form className="justify-content-between">
                             <Row>
                                 {certificates.certificate.map((certificate) => {
@@ -103,7 +112,7 @@ const Team = () => {
                                                 type="checkbox"
                                                 id={certificate}
                                                 onChange={handleFilterChange}
-                                                value={certificate} 
+                                                value={certificate}
                                                 label={certificate}
                                             />
                                         </Col>
@@ -114,15 +123,20 @@ const Team = () => {
                     </Dropdown.Menu>
                 </Dropdown>
             </Row>
-            <div className="media-scroller snaps-inline">
+            <Row className="media-scroller snaps-inline">
                 {state.member.map((mem) => {
                     return (
-                        <div className="media-element" key={mem.id}>
+                        <Col
+                            lg={12}
+                            md={12}
+                            className="media-element"
+                            key={mem.id}
+                        >
                             <Cards props={mem} key={mem.id} />
-                        </div>
+                        </Col>
                     );
                 })}
-            </div>
+            </Row>
         </Container>
     );
 };
