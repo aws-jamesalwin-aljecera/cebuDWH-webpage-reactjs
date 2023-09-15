@@ -10,7 +10,7 @@
         "Python",
         "SQL",
         "IBM CP4D",
-        "IBM Infosphere DataStage",
+        "IBM Infosphere Datastage",
         "Tableau",
         "HTML",
         "CSS",
@@ -41,7 +41,10 @@
         "IBM Db2",
         "Mern Stack",
         "Git",
-        "Selenium"    
+        "Selenium",
+        "Auto Testing",
+        "Mobile Testing",
+        "JPAHibernate" 
     ]
    },
    {

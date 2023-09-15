@@ -4,8 +4,10 @@
     "name": "Jayson Roda",
     "age": 18,
     "position": "Junior Research and Development Engineer",
-    "skills": ["Java", "Springboot", "SQL", "C#", "C++", "Web (HTML/CSS/Javascript)",
-    "MongoDB", "Express JS", "React JS", "Node JS","Bootstrap", "PHP", "Git", "DataStage", "Tableau"],
+    "skills": ["Java", "Springboot", "SQL", "C#", "C++","HTML","CSS","JavaScript",
+    "MongoDB", "Express JS", "React JS", "Node JS","Bootstrap", "PHP", "Git", 
+    "IBM Infosphere Datastage", "Tableau"
+    ],
     "cv": "https://drive.google.com/file/d/1NPFVvSLrl2wMWTf6o5BO-w_0zK9ZuA-Q/view?usp=drive_link"
   },
   {
@@ -14,9 +16,9 @@
     "age": 24,
     "position": "Asst. Research and Development Engineer",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Java", "Vue", "React", "Node", "C", "C#", "Python", "SQL", "IBM CP4D", 
+      "IBM Infosphere Datastage", "Tableau", "HTML", "CSS", "JavaScript", "SQL", "Bootstrap",
+      "IBM Certified Solution Developer - InfoSphere DataStage v11.3"
     ],
     "cv": "https://drive.google.com/file/d/1POZEPy0cB2WUp8n7Z_C7HfREyE3xb1AD/view?usp=drive_link"
   },
@@ -26,8 +28,9 @@
     "age": 14,
     "position": "Asst. Research and Development Engineer",
     "skills": [
-      "HTML", "CSS", "JS", "Flutter", "PHP",
-      "C","C++", "C#", "SQL", "JavaEE", "IBM Cloud Pak for Data (CP4D)", "IBM Infosphere Datastage", "Tableau"
+      "HTML", "CSS", "JavaScript", "Flutter", "PHP",
+      "C","C++", "C#", "SQL", "JavaEE", "IBM CP4D", "IBM Infosphere Datastage", "Tableau",
+      "IBM Certified Solution Developer - InfoSphere DataStage v11.3"
     ],
     "cv": "https://drive.google.com/file/d/11U7BOZ1MeqkYIODs2XskmhWeNJdPGUru/view?usp=drive_link"
   },
@@ -37,11 +40,10 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "C", "Python", "C++","Java", "JavaScript", "SQL", "IBM CP4D",  "IBM Infosphere Datastage",
+      "IBM Certified Solution Developer - InfoSphere DataStage v11.3"
     ],
-    "cv": ""
+    "cv": "https://drive.google.com/file/d/1-rcd1btBhLan8ySzIJNKtpfHpThtP3WZ/view?usp=drive_link"
   },
   {
     "id": 5,
@@ -49,9 +51,8 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "PHP", "HTML", "CSS", "JavaScript", "Laravel", "React", "Java", "C", "C#", "SQL", "Tableau",  
+      "IBM CP4D", "IBM Infosphere Datastage","JSE – Certified Entry-Level JavaScript Programmer"
     ],
     "cv": ""
   },
@@ -61,11 +62,9 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Devops", "IBM Infosphere Datastage","IBM CP4D", "Tableau"
     ],
-    "cv": ""
+    "cv": "https://drive.google.com/file/d/1nZif22gV7ICRHBuCUt8PNraIaMly1jqK/view?usp=drive_link"
   },
   {
     "id": 7,
@@ -73,9 +72,8 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Java", "JavaScript", "PHP", "Scala", "C", "C#", "Python", "SQL", "Hive SQL", "Trino", 
+      "HTML","CSS", "Angular", "Meteor.js", "Laravel", "Bootstrap", "Materialize", "Spring"
     ],
     "cv": ""
   },
@@ -85,9 +83,8 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Java", "Spring boot", "HTML", "CSS", "JavaScript",
+      "Bootstrap", "MongoDB", "Express", "React", "Node", "MySQL"
     ],
     "cv": ""
   },
@@ -97,9 +94,8 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Java", "Spring boot", "HTML", "CSS", "JavaScript",
+      "MongoDB", "Express", "React", "Node", "MySQL"
     ],
     "cv": ""
   },
@@ -109,11 +105,9 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Java", "HTML", "CSS", "JavaScript", "Spring boot", "SQL"
     ],
-    "cv": ""
+    "cv": "https://drive.google.com/file/d/1AG-0YBtLb15c7iTBHFpQgK39_BvpEspD/view?usp=drive_link"
   },
   {
     "id": 11,
@@ -121,11 +115,11 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "PHP", "HTML", "CSS", "JavaScript", "Laravel", "React",
+      "C", "Java", "C#", "SQL", "IBM Infosphere DataStage", "Tableau", "IBM Certified Solution Developer - InfoSphere DataStage v11.3",
+      "JSE – Certified Entry-Level JavaScript Programmer"
     ],
-    "cv": ""
+    "cv": "https://drive.google.com/file/d/10U17quAKIuTy4nuK5n2x9f9Ylrzilogt/view?usp=drive_link"
   },
   {
     "id": 12,
@@ -133,9 +127,7 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+        "Auto Testing", "Mobile Testing"
     ],
     "cv": ""
   },
@@ -145,11 +137,10 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "HTML", "CSS", "JavaScript", "Bootstrap", "MongoDB", "Express", "React", "Node", "Java", "C++", 
+      "MySQL", "Spring boot", "IBM InfoSphere DataStage", "IBM CP4D", "Tableau"
     ],
-    "cv": ""
+    "cv": "https://drive.google.com/file/d/1Nkoy8VOoO5Oi_4R-zBe2iLD56HF_gqeh/view?usp=drive_link"
   },
   {
     "id": 14,
@@ -157,11 +148,9 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Java", "Spring boot", "JPAHibernate", "SQL", "MongoDB", "Express", "React", "Node"
     ],
-    "cv": ""
+    "cv": "https://drive.google.com/file/d/1vlSJA0kCcgorEdofr0bCW1Ltii1EZgkj/view?usp=drive_link"
   },
   {
     "id": 15,
@@ -169,9 +158,8 @@
     "age": 39,
     "position": "Jane Wilson",
     "skills": [
-      "Million tonne punch",
-      "Damage resistance",
-      "Superhuman reflexes"
+      "Java","HTML","CSS","JavaScript",
+      "MongoDB","Express","Node","React", "MySQL", "Spring boot"
     ],
     "cv": ""
   }
