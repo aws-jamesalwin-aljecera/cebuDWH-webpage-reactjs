@@ -4,6 +4,7 @@ import Team from "./pages/Team";
 import Services from "./pages/Services";
 import Tools from "./pages/Tools";
 import Contacts from "./pages/Contacts";
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 function App() {
     return (
