@@ -29,24 +29,24 @@ const Cards = ({ props }) => {
                 </NavLink>
                 <Row className="justify-content-center d-sm-none d-lg-flex">
                     <NavLink
-                        href="https://www.fb.com"
+                        href="https://www.slack.com"
                         target={"_blank"}
                         className="sub-logo p-1"
                     >
                         <img
-                            src="./facebook.png"
-                            alt="Facebook logo"
+                            src="./slack.svg"
+                            alt="Slack logo"
                             className="sub-logo"
                         />
                     </NavLink>
                     <NavLink
-                        href="https://www.instagram.com"
+                        href="https://www.skype.com"
                         target="_blank"
                         className="sub-logo p-1"
                     >
                         <img
-                            src="./instagram.png"
-                            alt="Instagram logo"
+                            src="./skype.svg"
+                            alt="Skype logo"
                             className="sub-logo p-1"
                         />
                     </NavLink>
