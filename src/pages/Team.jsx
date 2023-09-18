@@ -56,7 +56,7 @@ const Team = () => {
     };
 
     return (
-        <Container className="text-center min-vh-92 p-5 bg-1" id="team" fluid>
+        <Container className="text-center min-vh-auto p-5 bg-1" id="team" fluid>
             <Row className="mb-3">
                 <h2 className="title">THE TEAM</h2>
                 <p className="p-18">

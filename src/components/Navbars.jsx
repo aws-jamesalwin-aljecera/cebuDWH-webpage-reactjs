@@ -9,7 +9,7 @@ function Navbars() {
           <img src="./nav-icon-hover.png" className="main-logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="bg-1 p-5 p-lg-0">
           <Nav className="ms-auto align-items-center menu">
             <Nav.Link href="#about" className="hover-4 mx-3 rounded">
               ABOUT

@@ -4,14 +4,14 @@ import "../css/Cards.css";
 
 const Cards = ({ props }) => {
     return (
-        <Card style={{ width: "18rem", height: "22rem" }} className="bg-0">
+        <Card className="bg-0 vw-75 h-auto">
             <NavLink href={props.cv} target="_blank" className="no-link">
                 <Card.Img
                     variant="top"
                     src={"https://robohash.org/" + props.name}
                     style={{
-                        height: "8rem",
-                        width: "12rem",
+                        height: "auto",
+                        width: "50%",
                         margin: "auto",
                     }}
                 />
@@ -27,7 +27,7 @@ const Cards = ({ props }) => {
                         make up the bulk of the card's content.
                     </Card.Text>
                 </NavLink>
-                <Row className="justify-content-center">
+                <Row className="justify-content-center d-sm-none d-lg-flex">
                     <NavLink
                         href="https://www.slack.com"
                         target={"_blank"}

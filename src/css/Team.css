@@ -3,8 +3,7 @@
     display: grid !important;
     gap: var(--_spacer) !important;
     grid-auto-flow: column !important;
-    grid-auto-columns: 21% !important;
-
+    grid-auto-columns: 25vw !important;
     padding: 0 var(--_spacer) var(--_spacer) !important;
 
     overflow-x: auto;
@@ -44,23 +43,44 @@
     inset: 0 auto auto -14vw !important;
 }
 
+
+@media (max-width: 900px) {
+    .media-scroller {
+        grid-auto-columns: auto;
+        padding: 0;
+        overflow-x: scroll;
+        overscroll-behavior-inline: auto;
+        grid-auto-columns: 60vw !important;
+    }
+
+    .snaps-inline {
+        scroll-padding-inline: 0;
+    }
+}   
 @media (max-width: 768px) {
     .media-scroller {
         grid-auto-columns: auto;
         padding: 0;
         overflow-x: scroll;
         overscroll-behavior-inline: auto;
+        grid-auto-columns: 50vw !important;
     }
 
     .snaps-inline {
         scroll-padding-inline: 0;
     }
-}
-@media (min-width: 768px) {
+}   
+
+@media (max-width: 600px) {
     .media-scroller {
         grid-auto-columns: auto;
         padding: 0;
         overflow-x: scroll;
         overscroll-behavior-inline: auto;
+        grid-auto-columns: 80vw !important;
+    }
+
+    .snaps-inline {
+        scroll-padding-inline: 0;
     }
 }
