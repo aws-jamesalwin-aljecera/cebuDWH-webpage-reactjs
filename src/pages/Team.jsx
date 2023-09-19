@@ -60,13 +60,11 @@ const Team = () => {
             <Row className="mb-3">
                 <h2 className="title">THE TEAM</h2>
                 <p className="p-18">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Platea dictumst vestibulum rhoncus est. Elementum
-                    sagittis vitae et leo duis ut. Facilisis gravida neque
-                    convallis a cras semper auctor neque vitae. Felis eget nunc
-                    lobortis mattis aliquam faucibus purus. Sit amet tellus cras
-                    adipiscing enim eu turpis egestas.
+                Introducing the talented team, per member is bringing unique skills and expertise to the table:
+                <br />
+                Together, this dynamic team combines their individual strengths to tackle challenges and deliver 
+                outstanding results in Data Warehousing. We are excited to showcase their talents as we embark on 
+                future project, confident that their skills will lead us to success.
                 </p>
                 <h2 className="sub-title">Profile</h2>
                 <Dropdown className="text-center">
